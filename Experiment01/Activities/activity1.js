@@ -7,10 +7,10 @@ document.write(studentBranch);
 document.write(studentID); */
 
 let student = {
-    name: "Raje Chavan",
-    email : "raje@gmail.com",
-    branch: "Civil",
-    id: "102",
+    name: "ABC",
+    email : "abc@gmail.com",
+    branch: "AIML",
+    id: "101",
     active: true
 };
 
