@@ -8,15 +8,15 @@ document.write(studentID); */
 
 let student = {
     name: "ABC",
-    email : "abc@gmail.com",
+    email: "abc@gmail.com",
     branch: "AIML",
     id: "101",
     active: true
 };
 
-document.write(`Student Name: ${student.name}`);
-document.write(`Email: ${student.email}`);
-document.write(`Grade: ${student.branch}`);
-document.write(`ID: ${student.id}`);
-document.write(`Active: ${student.active}`);
+document.write(`Student Name: ${student.name} <br>`);
+document.write(`Email: ${student.email} <br>`);
+document.write(`Branch: ${student.branch} <br>`);
+document.write(`ID: ${student.id} <br>`);
+document.write(`Active: ${student.active} <br>`);
 
