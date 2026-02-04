@@ -1,7 +1,6 @@
 //Activity-3 : print number using loop
-document.write("<br>Activity-3<br>");
-let a = 1;
-while(a<10){
-    document.write(a);
-    a++;
+let b = 1;
+while(b<10){
+    document.write(b);
+    b++;
 }
