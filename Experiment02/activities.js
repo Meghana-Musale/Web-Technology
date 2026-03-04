@@ -203,3 +203,10 @@ console.log("The total sum is:", sum);
 }
 
 console.log(getArraySum([1, 2, 3, 4]));  */
+
+/* //object declaration
+const obj1 = {
+    nmae : "Meghana",
+    age : 20
+}
+console.log(obj1); */
