@@ -16,17 +16,17 @@ activity 1- different btn arrow function and simple function
 function greet(name) {
     return "Hello " + name;
 }
-console.log(greet("Anjali"));
+console.log(greet("Meghaa"));
 //arrow function
 const greeting = (name) => {
     return "Hello " + name;
 };
-console.log(greeting("Anjali"));
+console.log(greeting("Meghaa"));
 
 //2. how we use this keyword in arrow function and simple function
 //simple function
 const person = {
-    name: "Anjali",
+    name: "Meghaa",
     greet: function() {
         console.log(this.name);
     }
@@ -34,7 +34,7 @@ const person = {
 person.greet();  // Anjali
 //arrow function
 const person1 = {
-    name: "Anjali",
+    name: "Meghaa",
     greet: () => {
         console.log(this.name);
     }
@@ -128,8 +128,8 @@ for (let ch of "AI") {  //for string
 //for-in loop     ------> it is used to return the keys of an object or the indices of an array.
 console.log("For in loop:");
 let student = {
-  name: "Anjali",
-  branch: "CSE",
+  name: "Meghaa",
+  branch: "CSE-AIML",
   year: 3
 };
 
