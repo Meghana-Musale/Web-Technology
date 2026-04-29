@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lie Detector</title><!-- The title shown on the browser tab -->
+    <link rel="stylesheet" href="style.css"><!-- Connects the CSS for styling -->
+</head>
+<body>
+
+    <div class="container"> <!-- Wrapper for the project content -->
+        <h1> Lie Detector Test</h1><!-- thsi is the main heading of web page -->
+        <p>Answer honestly... we are watching </p>
+
+        <label>What is your name?</label><!-- This text describing input box for name -->
+        <input type="text" id="name"><!-- input box for user's name the id lets JS access it -->
+
+        <label>Have you ever lied?</label>
+        <input type="text" id="lieAnswer">
+
+        <button id="submitBtn">Check Truth %</button>
+
+        <h2 id="result"></h2><!-- it is empty heading where js will display the result -->
+    </div>
+
+<script src="script.js"></script><!-- Connects JS file to run the logic -->
+</body>
+</html>

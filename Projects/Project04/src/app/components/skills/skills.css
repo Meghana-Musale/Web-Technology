@@ -1,0 +1,16 @@
+.section {
+  padding: 60px 100px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #333;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+}

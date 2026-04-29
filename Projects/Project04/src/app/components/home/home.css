@@ -1,0 +1,21 @@
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.hero span {
+  color: #ff4d4d;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+}

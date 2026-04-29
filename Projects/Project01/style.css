@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}/* body : Styles the page background and centers content using flex*/
+
+.container {
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}/*.container : Adds background color padding, rounded corners, fixed width and centers text */
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}/* input : styles input boxes for full width, padding and rounded corners  */
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: crimson;
+    color: white;
+    cursor: pointer;
+}/* button : makes buttons look clickable, colored and hover effect */
+
+button:hover {
+    background: darkred;
+}
+
+#result {
+    margin-top: 20px;
+}/* #result : adds spacing above the result text */
