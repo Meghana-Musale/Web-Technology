@@ -28,9 +28,7 @@ export class Home {
     this.student.course = this.newStudent.course;
   }
   
-  src = "https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg";
-  
-  isImage : boolean = true;
+
   
   //array of courses
   courses : string[] = ["CSE", "AIML", "AIDS", "ENTC"];
