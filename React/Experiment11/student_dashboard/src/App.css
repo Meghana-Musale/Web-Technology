@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+/* Main Container */
+.dashboard {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Title */
+.main-title {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+/* Profile Box */
+.profile-box {
+  background: #ffffff;
+  max-width: 500px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+.profile-box h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.profile-box p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Cards Container */
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Card Styling */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4facfe;
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 24px;
+  }
+
+  .profile-box {
+    padding: 15px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+}
